@@ -4,8 +4,6 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 
-class BaseActivity : AppCompatActivity() {
-
 open class BaseActivity : AppCompatActivity() {
 
     val TAG = "LifeCyle"
@@ -45,4 +43,3 @@ open class BaseActivity : AppCompatActivity() {
         super.onDestroy()
        }
     }
-}
